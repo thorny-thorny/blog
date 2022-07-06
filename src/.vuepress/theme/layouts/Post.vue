@@ -15,9 +15,6 @@ import ContentContainer from '@theme/components/ContentContainer.vue'
 import PostInfo from '@theme/components/PostInfo.vue'
 
 export default {
-created() {
-console.log(this)
-},
   components: {
     ParentLayout,
     ContentContainer,
