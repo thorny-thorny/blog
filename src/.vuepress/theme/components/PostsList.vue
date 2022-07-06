@@ -6,7 +6,7 @@
         <RouterLink :to="post.path">{{ post.title }}</RouterLink>
       </h1>
       <PostInfo :post="post" :tags="tags" />
-      <p v-html="post.excerpt" />
+      <div v-html="post.excerpt" />
       <p>
         <RouterLink :to="post.path">Continue reading</RouterLink>
       </p>
