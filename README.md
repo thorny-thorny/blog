@@ -1,2 +1,3 @@
-# blog
-My blog
+# Blog
+
+Just my blog
