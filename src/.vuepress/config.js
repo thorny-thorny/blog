@@ -1,3 +1,5 @@
+const { removePlugin, PLUGINS } = require('@vuepress/markdown')
+
 module.exports = {
   title: 'Thorny\'s blog',
   themeConfig: {
@@ -8,6 +10,13 @@ module.exports = {
     ],
   },
   plugins: [
+    [
+      () => ({
+        chainMarkdown(config) {
+          removePlugin(config, PLUGINS.EMOJI)
+        },
+      }),
+    ],
     [
       '@vuepress/blog',
       {
