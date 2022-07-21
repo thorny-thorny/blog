@@ -8,6 +8,12 @@ tags:
  - blog
 ---
 
+<center>
+
+![Game title](/img/blog/its-a-post.jpg)
+
+</center>
+
 Except it's not :D I challenged myself to set up a blog and make a post about the recent game jam until a particular date. This post is supposed to be the first introductory post of my blog. But blog setup and game jam [post](/post/adventure-jam-2022/) took so much time, I decided to postpone this post to complete the challenge in time.
 
 <!-- more -->
@@ -25,7 +31,7 @@ I was thinking over different aspects of my blog earlier and now they became for
 * I'm not going to make everything from scratch, that’s too much work for a blog D: I need some <span title="Content management system" style="text-decoration: dotted underline; cursor: help">CMS</span> or a site generator
 * I want it to build into static HTML according to my green statement (which is to be done yet), for security reasons and nice <span title="Search engine optimization" style="text-decoration: dotted underline; cursor: help">SEO</span>
 * It has to be relatively easy to extend and modify, I might want to add some custom content or embed something interactive
-* It has to be convenient for technical blog posting, code highlight support is absolute minimum
+* It has to be convenient for technical blog posting, code highlight support is a must have
 * I want to control how and where the content is hosted. I might start with [NGINX](https://nginx.org/) on my server and end up with 3rd party <span title="Content delivery network" style="text-decoration: dotted underline; cursor: help">CDN</span>
 * A big no for paywalls, ads, cookie banners and other abominations of the modern web. I want it to be dead simple for a visitor to reach my content
 * It shouldn't be too complicated and drag gigabytes of node_modules or other dependencies around
